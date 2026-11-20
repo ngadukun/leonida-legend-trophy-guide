@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">UNOFFICIAL FAN GUIDE · GRAND THEFT AUTO VI · PS5</p>
+    <h1>Leonida Legend</h1>
+    <p class="tagline">Every one of the 55 trophies, a guide to each in plain
+    words, a roadmap to the platinum — and a tracker that remembers where you
+    got to. Works offline; your progress never leaves this browser.</p>
+    <div class="progress-wrap">
+      <div class="progress-numbers">
+        <span id="stat-count">0 / 55 trophies</span>
+        <span id="stat-points">0 / 1350 points</span>
+        <span id="stat-pct">0%</span>
+      </div>
+      <div class="progress-bar"><div id="progress-fill"></div></div>
+    </div>
+    <nav class="tabs">
+      <button data-view="tracker" class="tab active">Tracker &amp; Guides</button>
+      <button data-view="roadmap" class="tab">Roadmap to Platinum</button>
+      <button data-view="watch" class="tab">Watch-outs <span id="watch-count" class="pill"></span></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- TRACKER VIEW -->
+  <section id="view-tracker" class="view active">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search trophies…" aria-label="Search trophies">
+      <select id="kind-filter" aria-label="Filter by kind">
+        <option value="">All kinds</option>
+      </select>
+      <select id="tier-filter" aria-label="Filter by tier">
+        <option value="">All tiers</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+      <label class="check"><input type="checkbox" id="hide-earned"> Hide earned</label>
+      <label class="check"><input type="checkbox" id="spoilers"> Reveal hidden trophies</label>
+      <span class="spacer"></span>
+      <button id="export-btn" type="button">Export progress</button>
+      <label class="import-label">Import progress<input id="import-file" type="file" accept="application/json" hidden></label>
+    </div>
+    <div class="tracker-layout">
+      <ol id="trophy-list" class="trophy-list"></ol>
+      <aside id="detail" class="detail" aria-live="polite">
+        <p class="detail-hint">Pick a trophy to read its guide: what to do,
+        where and when it can go wrong, and the source the guide is built on.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ROADMAP VIEW -->
+  <section id="view-roadmap" class="view">
+    <h2>Roadmap to the platinum</h2>
+    <p class="lede">Five phases, in the order that wastes the least time.
+    Nothing in the list needs a second playthrough if you follow the two
+    habits in Phase 0.</p>
+
+    <h3>Phase 0 — Two habits that save a replay</h3>
+    <ul>
+      <li><strong>Keep a manual save before big story decisions.</strong>
+      <em>Actions Speak Louder</em> is a choice trophy (“choices made, for
+      better or worse”); a save from before the decision is the difference
+      between five minutes and a second campaign.</li>
+      <li><strong>Never reload away a failure.</strong> <em>Bad Luck, I
+      Guess</em> (“second time's the charm”) is earned by failing once and
+      succeeding on the retry — take the retry the game offers.</li>
+    </ul>
+
+    <h3>Phase 1 — The story, chapters 1 to the finale</h3>
+    <p>Thirteen trophies are pure campaign: the four chapter trophies
+    (<em>Paradise Lost</em>, <em>T**s Ass Drug Money</em>, <em>Vice City,
+    Baby!</em>, <em>Top Of The World, Ma</em>), the named missions
+    (<em>Just Like Paradise</em>, <em>Trust</em>, <em>Break the Bank</em>,
+    <em>Family Matters</em>, <em>DWNFALL</em>, <em>Hi-Jacked</em>,
+    <em>Snow Storm</em>) and the finale itself, <em>You Gotta Know When to
+    Get Off</em>. Play them in order; none can be skipped. From Chapter 3
+    onwards the map is fully open, so start the map-wide grinds in parallel
+    rather than saving them all for the end.</p>
+
+    <h3>Phase 2 — Every strand, before the finale</h3>
+    <p>Five characters have strands that end in a named final mission:
+    <strong>Andy</strong> (<em>Road to Rehabilitation</em>),
+    <strong>Kenton</strong> (<em>This Was No Boat Accident</em>),
+    <strong>Billy</strong> (<em>The Lone Rider</em>),
+    <strong>Randy</strong> (<em>Supply &amp; Demand</em>) and
+    <strong>Tyrone</strong> (<em>Spin On This!</em>). Treat the finale as a
+    point of no return and close all five strands first; then finish eight
+    stranger strands anywhere in Leonida for <em>Strangers &amp;
+    Freaks</em>, and run Bret's hunting strand for <em>Fair Game</em>.</p>
+
+    <h3>Phase 3 — The open-world grind</h3>
+    <p>The long tail, all doable in free roam: 250 stunts (<em>Cunning
+    Stunts</em>), every Shooting Range gold (<em>The Shootist</em>), a drone
+    race win at every location (<em>Top Fun</em>), 20 different race wins
+    (<em>Earn Cash, Not Kudos</em>), Cal's fishing challenge (<em>Baited My
+    Tackle</em>), one arcade game (<em>Stick Fiddler</em>), one attempt at
+    every activity type (<em>Master of None</em>), 50 challenges (<em>One
+    Last Thing</em>), every meditation spot (<em>Positive Mental
+    Attitude</em>), 100 WAiNK It spots (<em>You WAiNKer!</em>), 3 card sets
+    (<em>Don't Touch My Deck</em>), 100 vehicles discovered (<em>Whip It
+    Good</em>) and the whole map uncovered (<em>The Goodtime State</em>).
+    Sweep region by region and these mostly complete each other.</p>
+
+    <h3>Phase 4 — Crime, partners and money</h3>
+    <p>The set-piece feats: a silent jewelry robbery (<em>Sneakthief</em>),
+    five bank vaults (<em>Maximum Withdrawal</em>), an armored truck (<em>A
+    Classic Blitz Play</em>), one illegal operation per gang (<em>Pest
+    Control</em>) and $250,000 of laundered Marked Bills (<em>Dime on the
+    Dollar</em>). With your partner: escape a 4-star wanted level together
+    (<em>Hot Together</em>), rob three shops back-to-back without the heat
+    clearing (<em>Retail Therapy</em>) and the cryptic <em>Personal
+    Best</em>. In combat: five takedowns in one Combat Focus
+    (<em>Gunslinger</em>), time in a Rhino tank (<em>Challenging Tank</em>)
+    and a melee drive-by set (<em>Ten Pin</em>). Then the money sinks:
+    $100,000 spent (<em>Treat Yo Self</em>), every garage bought (<em>Little
+    Boxes</em>) and 10 vehicles registered (<em>On the Spot</em>). Keep an
+    eye out the whole game for the oddity trophies — an unscheduled
+    departure at VCIA (<em>Catch Me If You Can</em>), a cocktail on Ocean
+    Beach (<em>In The Beginning…</em>), a showroom exit (<em>Capital
+    Offense</em>), a bowling game (<em>Let's Go Bowling</em>) and whatever
+    <em>The Truth Is Out There</em> turns out to be.</p>
+
+    <h3>Phase 5 — 100% and the platinum</h3>
+    <p><em>A Long Road</em> asks for 100% on the game's own completion
+    counter; by now it is a mop-up of whatever category is short. When the
+    54th trophy pops, <em>Vice Got a Price!</em> — the platinum — follows on
+    its own.</p>
+  </section>
+
+  <!-- WATCH-OUTS VIEW -->
+  <section id="view-watch" class="view">
+    <h2>Watch-outs</h2>
+    <p class="lede">The trophies that can go wrong: strand finales to finish
+    before the story's end, the choice to save before, the failure not to
+    reload away, one clean-run robbery, and the cryptic descriptions whose
+    guides are honest about being the plainest reading of the official
+    text.</p>
+    <ol id="watch-list" class="trophy-list"></ol>
+  </section>
+</main>
+
+<footer>
+  <p>Guides are written from the official PSN trophy descriptions (trophy
+  list read via Exophase, 20 November 2026); each trophy's guide names its
+  source. This is an unofficial fan work, not affiliated with Rockstar Games
+  or Take-Two Interactive, and it uses no official artwork — every visual on
+  this page is CSS. Progress is stored only in your browser
+  (localStorage).</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
